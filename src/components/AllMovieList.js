@@ -20,13 +20,13 @@ const AllMovieList = (props) => {
         <div className="container mt-3">
             <div className="row">
                 <div className="col-8">
-                <h2>Movies               
-                </h2>
+                    <h2>Movies
+                    </h2>
                 </div>
-                <div className="col-4"> 
-                <Link to="/addmovie">
-                <button className='btn btn-primary'>Add Movies</button>
-                </Link>                
+                <div className="col-4">
+                    <Link to="/addmovie">
+                        <button className='btn btn-primary'>Add Movies</button>
+                    </Link>
                 </div>
             </div>
             <div className="row row-cols-1 row-cols-md-5 row-cols-lg-6 g-4">
