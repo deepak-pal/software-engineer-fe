@@ -15,7 +15,7 @@ const AddMovie = (props) => {
             alert('All field are mandatory');
             return
         }
-        console.log(title, image, comment);
+        
         props.addMovieHandler({ title, image, comment })
         setTitle("");
         setImage("");
