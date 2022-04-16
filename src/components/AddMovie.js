@@ -58,7 +58,7 @@ const AddMovie = (props) => {
                                 <input className='form-control' type="text" name='comment' placeholder='Comment' value={comment} onChange={event => setComment(event.target.value)}></input>
                             </div>
                         </div>
-                        <button className='btn btn-primary'>ADD MOVIE</button>
+                        <button className='btn btn-info'>ADD MOVIE</button>
 
                     </form>
                 </div>

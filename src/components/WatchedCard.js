@@ -11,7 +11,7 @@ const WatchedCard = (props) => {
                     <p className="card-text">{comment}</p>
                 </div>
                 <div className="card-footer text-center" style={{background: "transparent", border: "none"}}>
-                    <button  className="btn btn-primary" onClick={() => props.removeWatched(id)}>Remove</button>
+                    <button  className="btn btn-info" onClick={() => props.removeWatched(id)}>Remove</button>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ const AllMovieList = (props) => {
                 </div>
                 <div className="col-4">
                     <Link to="/addmovie">
-                        <button className='btn btn-primary'>Add Movies</button>
+                        <button className='btn btn-info'>Add Movies</button>
                     </Link>
                 </div>
             </div>

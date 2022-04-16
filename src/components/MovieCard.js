@@ -11,7 +11,7 @@ const MovieCard = (props) => {
                     <p className="card-text">{comment}</p>
                 </div>
                 <div className="card-footer text-center" style={{background: "transparent", border: "none"}}>
-                    <button  className="btn btn-primary" onClick={() => props.clickHandler(id)}>Add to watched</button >
+                    <button  className="btn btn-info" onClick={() => props.clickHandler(id)}>Add to watched</button >
                 </div>
             </div>
         </div>
